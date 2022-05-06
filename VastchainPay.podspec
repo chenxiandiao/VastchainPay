@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chenxiandiao' => '15068808239@163.com' }
-  s.source           = { :git => 'https://github.com/chenxiandiao/VastchainPay.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:chenxiandiao/VastchainPay.git', :tag => s.version.to_s }
 #  s.source           = { :git => '/Users/cxd/vastchain/sdk/ios/VastchainPay', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

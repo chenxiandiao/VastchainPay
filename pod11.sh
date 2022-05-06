@@ -8,3 +8,4 @@
 
 
 pod lib lint VastchainPay.podspec --allow-warnings --use-libraries --verbose
+pod trunk push VastchainPay.podspec --allow-warnings --use-libraries --verbose
