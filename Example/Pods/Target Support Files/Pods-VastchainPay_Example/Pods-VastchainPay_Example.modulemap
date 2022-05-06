@@ -1,0 +1,6 @@
+framework module Pods_VastchainPay_Example {
+  umbrella header "Pods-VastchainPay_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

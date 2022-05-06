@@ -1,0 +1,28 @@
+{
+  "name": "VastchainPay",
+  "version": "0.1.0",
+  "summary": "A short description of VastchainPay.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chenxiandiao/VastchainPay",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chenxiandiao": "15068808239@163.com"
+  },
+  "source": {
+    "git": "/Users/cxd/vastchain/sdk/ios/VastchainPay",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "VastchainPay/Classes/**/*",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
+}

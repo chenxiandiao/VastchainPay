@@ -7,6 +7,7 @@
 //
 
 #import "PAYViewController.h"
+#import "PayWebViewController.h"
 
 @interface PAYViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"firstPage");
+    PayWebViewController *viewController = [[PayWebViewController alloc]initWithUrl:@"https://www.baidu.com"];
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 - (void)didReceiveMemoryWarning
