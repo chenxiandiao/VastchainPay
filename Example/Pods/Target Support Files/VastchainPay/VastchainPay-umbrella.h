@@ -13,9 +13,6 @@
 #import "IJsBridge.h"
 #import "JsApi.h"
 #import "PayWebViewController.h"
-#import "WechatAuthSDK.h"
-#import "WXApi.h"
-#import "WXApiObject.h"
 
 FOUNDATION_EXPORT double VastchainPayVersionNumber;
 FOUNDATION_EXPORT const unsigned char VastchainPayVersionString[];

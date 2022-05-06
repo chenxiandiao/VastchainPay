@@ -9,112 +9,108 @@
 /* Begin PBXAggregateTarget section */
 		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildConfigurationList = 202D84707115E6D3FCE465ACED44C2F1 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
 			buildPhases = (
 			);
 			dependencies = (
 			);
 			name = WechatOpenSDK;
-			productName = WechatOpenSDK;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		01505F95361257149CD74A56CADE5DAB /* VastchainPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8FB530E7B123FD4487E3FD720864B4 /* VastchainPay-dummy.m */; };
 		0FAC23AACE7004FC8554CBC782505565 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1F354FE16EE07B0E96A88B182B09FA65 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7421AF280D2051B05DE43B8830C21F29 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D22F6829044173CB5FA75D026122135 /* Pods-VastchainPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6042D720597005C0F6DD22B4EBCF4A4A /* Pods-VastchainPay_Example-dummy.m */; };
-		325C79C4592D37F1F8EB5C7F5F93EEF7 /* VastchainPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BF51EE8790A81577A12B9840350CC /* VastchainPay-dummy.m */; };
+		105DC2DB4555C55908E2C07FD3A39BF7 /* IJsBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = D02ED3652AB95E39AE976E4FCFD681D9 /* IJsBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13D3169227AC0D9BD9C753F1B078EC00 /* PayWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 707D024AB4745526439C668D8A0AE805 /* PayWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D22F6829044173CB5FA75D026122135 /* Pods-VastchainPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 785921C8DA790D063D05A4A31BBA1B43 /* Pods-VastchainPay_Example-dummy.m */; };
+		4A3B515ACC257F8F2164C6E3A7E0A329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4A4E2783C490AB80C065DA9C8546363A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5FB4F7DBBC461E8691F7C5FE54B6AEB3 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A90572360BADC34CD13265098721CB /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		779CB047F45AAA485999C619A9E9DF31 /* Pods-VastchainPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A9CF9FFB35FDBE96118137A62E58EF /* Pods-VastchainPay_Tests-dummy.m */; };
-		7A92E9C829B5A1B006D7C07205BECB8C /* libWeChatSDK.a in Sources */ = {isa = PBXBuildFile; fileRef = 8264A08E7CD956CE99B80D096A9D8BC4 /* libWeChatSDK.a */; };
-		8E845576D34ACAA34ED007CD255D4A83 /* PayWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7113BF4230BC88953035A42740B0AB /* PayWebViewController.m */; };
-		A3B00123251E29343BEE5C696F8AEB1D /* Pods-VastchainPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95556BC037A8B7EFE97F9036A6603782 /* Pods-VastchainPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A442A30D92DEC742D7A7A0C7335F5742 /* Pods-VastchainPay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA13213962A1169A416F9C74163C22D1 /* Pods-VastchainPay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4D828526B9C4EE4C46AA1E05061E6E2 /* IJsBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 76594D35F5CE531013F623D98F64B114 /* IJsBridge.m */; };
-		A73D955F84AEF03EACF1D84853E28DC0 /* JsApi.h in Headers */ = {isa = PBXBuildFile; fileRef = D1EDB6627A048CA9DCF8D5A8B8F0EB97 /* JsApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD2E0B617C1A69C1B70035A8E38CD61F /* IJsBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2BCC44232BE1E7D5199F1E2D12C6B8 /* IJsBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2026BF46775A44F2B0322481158E50E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B51F29F43901C95B7EEF8D52EFBF1881 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 611EDD5EB14EF5DA3F50C61B6F6A2122 /* ReplaceMe.m */; };
-		B621C6A3CBA37E57618383C889895A2D /* VastchainPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AABB4AD5EDC24EC2BA3DDEFC39AE602 /* VastchainPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C219C975014CC2B0B973833CD30D8658 /* PayWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C8371B1C7BF347640B5E79EA1920CEFF /* PayWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E412F2B33A4D41ADCFC585E03CD0CD79 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD60C3901AE2882BA52B7279E90519F /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC660B072824EAD900B3F3E9 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BDAE1B5E0C61D231041F45D886AC95 /* libWeChatSDK.a */; };
+		779CB047F45AAA485999C619A9E9DF31 /* Pods-VastchainPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D04B40F6EDE8771830553433FF3EA5FA /* Pods-VastchainPay_Tests-dummy.m */; };
+		8AF7E4E1F4DDC8F62041EDC8F0E6A5E4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C468E31D1FAB4550D7141EFEF00154 /* ReplaceMe.m */; };
+		A3B00123251E29343BEE5C696F8AEB1D /* Pods-VastchainPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17B4A420C6D01DA342A7F69E1E47F25A /* Pods-VastchainPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A442A30D92DEC742D7A7A0C7335F5742 /* Pods-VastchainPay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA375158F55CAA7E5A976930219B352E /* Pods-VastchainPay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C173B95C6FB2A98E1553F39DA236AE90 /* IJsBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BE60A189312CF9EE03C74D7DC4E76 /* IJsBridge.m */; };
+		D37776C40745FF39A33AB5E42869EA04 /* JsApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 65698F4AAD7FC17E4912EDE6E645BE73 /* JsApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE74C291E570F86C0844D14169EFFC67 /* VastchainPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5B78307E918FEF939C5BC90AA018AE /* VastchainPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBD3C03396FFFCB5199B04F2CBEEF7C6 /* PayWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2E5279BA06EB9ECD97F2C06013F66 /* PayWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		47D97D67C1C63D704D8243954FA0C45F /* PBXContainerItemProxy */ = {
+		636D348401DFBB3717896EFC46AEB52E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 91D3C7A2BF0790351EC617F2D053624B;
 			remoteInfo = VastchainPay;
 		};
-		7527B16ECE97DCCB23F17DE0F99ACB93 /* PBXContainerItemProxy */ = {
+		AA9BF8ACA7C1A86BB7B8CA8FEE702130 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
 			remoteInfo = WechatOpenSDK;
 		};
-		BD589A5FE3979358159C9D2C5BAF7D98 /* PBXContainerItemProxy */ = {
+		B9EA6822977B24BCB41B6D653567316B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FD3319C54B1DE2AC8F6485D4A3F88063;
 			remoteInfo = "Pods-VastchainPay_Example";
 		};
+		E9DF6ADDCA6AC30D0AEB32EF3242E1D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		017543EC33D973542B2821FFB84BB662 /* Pods-VastchainPay_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VastchainPay_Example-Info.plist"; sourceTree = "<group>"; };
-		04A90572360BADC34CD13265098721CB /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = VastchainPay/Classes/WechatAuthSDK.h; sourceTree = "<group>"; };
-		09D986A66823E1DE2C75B661CAB10CE2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		0FDEF0F201B96547CC1C237EC1EF32AE /* VastchainPay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VastchainPay-Info.plist"; sourceTree = "<group>"; };
-		1F74B9522255ADEDAA974E4515CC236A /* VastchainPay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VastchainPay.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		17B4A420C6D01DA342A7F69E1E47F25A /* Pods-VastchainPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VastchainPay_Example-umbrella.h"; sourceTree = "<group>"; };
+		24B2E5279BA06EB9ECD97F2C06013F66 /* PayWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PayWebViewController.m; path = VastchainPay/Classes/PayWebViewController.m; sourceTree = "<group>"; };
+		2A8F83676FB5480C35B799EBC432F83E /* Pods-VastchainPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VastchainPay_Example.modulemap"; sourceTree = "<group>"; };
+		2FC83471862E69B50DD990B0C9372BB4 /* Pods-VastchainPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VastchainPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		30BDAE1B5E0C61D231041F45D886AC95 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.7.1/libWeChatSDK.a; sourceTree = "<group>"; };
-		32212509AC6468C2661957E72F58F98B /* VastchainPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VastchainPay.debug.xcconfig; sourceTree = "<group>"; };
-		3227B989AD39AA4122E3CA594F462A77 /* Pods-VastchainPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VastchainPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3242718755E33E52164B3352BA2E53EF /* Pods-VastchainPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VastchainPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CB20EA53307D392D75CFF6350814E9D /* Pods-VastchainPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VastchainPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3DF14C1137882BFDBFE3D846088EC9CD /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
-		4AE9E3164CEB4639C827AB4E32BDA7C2 /* Pods-VastchainPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VastchainPay_Example.modulemap"; sourceTree = "<group>"; };
-		4E7EE628DF88086BD920F612CF20F538 /* Pods-VastchainPay_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VastchainPay_Tests-Info.plist"; sourceTree = "<group>"; };
-		4FF290AFCBB533E4750BC71440C22964 /* VastchainPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VastchainPay.modulemap; sourceTree = "<group>"; };
-		547FA89B74A831164C3CA488622AF767 /* Pods_VastchainPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VastchainPay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6042D720597005C0F6DD22B4EBCF4A4A /* Pods-VastchainPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VastchainPay_Example-dummy.m"; sourceTree = "<group>"; };
-		611EDD5EB14EF5DA3F50C61B6F6A2122 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = VastchainPay/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		4F1BE60A189312CF9EE03C74D7DC4E76 /* IJsBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IJsBridge.m; path = VastchainPay/Classes/IJsBridge.m; sourceTree = "<group>"; };
+		513221138E7BE080600AFF9FE8F47524 /* Pods-VastchainPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VastchainPay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		547FA89B74A831164C3CA488622AF767 /* Pods_VastchainPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VastchainPay_Example.framework; path = "Pods-VastchainPay_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B083782329E1FD7EA0C7D314A0DF50 /* VastchainPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VastchainPay.modulemap; sourceTree = "<group>"; };
+		65698F4AAD7FC17E4912EDE6E645BE73 /* JsApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JsApi.h; path = VastchainPay/Classes/JsApi.h; sourceTree = "<group>"; };
 		664A5A95C192C1C30FC0EE0FBD4405FF /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
+		66C468E31D1FAB4550D7141EFEF00154 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = VastchainPay/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		68F7038F3AB84990BB750312100EE061 /* VastchainPay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VastchainPay-Info.plist"; sourceTree = "<group>"; };
 		6A20403E38D94F39946C7A709DAFB72C /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.7.1/WechatAuthSDK.h; sourceTree = "<group>"; };
-		6AABB4AD5EDC24EC2BA3DDEFC39AE602 /* VastchainPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VastchainPay-umbrella.h"; sourceTree = "<group>"; };
-		6C7113BF4230BC88953035A42740B0AB /* PayWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PayWebViewController.m; path = VastchainPay/Classes/PayWebViewController.m; sourceTree = "<group>"; };
-		6EE48281C26422570EF5A2BCB4D9A41B /* Pods-VastchainPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VastchainPay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6AB2F6E6580BF16AB832D933E53EC290 /* VastchainPay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VastchainPay.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6C6A14DCA5BF4C8B862794239D02DC82 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		707D024AB4745526439C668D8A0AE805 /* PayWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PayWebViewController.h; path = VastchainPay/Classes/PayWebViewController.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7421AF280D2051B05DE43B8830C21F29 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = VastchainPay/Classes/WXApiObject.h; sourceTree = "<group>"; };
-		76594D35F5CE531013F623D98F64B114 /* IJsBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IJsBridge.m; path = VastchainPay/Classes/IJsBridge.m; sourceTree = "<group>"; };
-		8264A08E7CD956CE99B80D096A9D8BC4 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = VastchainPay/Classes/libWeChatSDK.a; sourceTree = "<group>"; };
+		785921C8DA790D063D05A4A31BBA1B43 /* Pods-VastchainPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VastchainPay_Example-dummy.m"; sourceTree = "<group>"; };
+		78A3FB0FD3B41EBC9C4B3D5CEDC10841 /* Pods-VastchainPay_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VastchainPay_Tests-Info.plist"; sourceTree = "<group>"; };
+		78DE680D044554FA2C01E8B722BFB4BC /* Pods-VastchainPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VastchainPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8540BF6E771677C2B952586840129AC8 /* VastchainPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VastchainPay-prefix.pch"; sourceTree = "<group>"; };
 		8E37CB2E7FE0781EFFC7CB95E7957EA8 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.7.1/WXApiObject.h; sourceTree = "<group>"; };
-		8F0F712C5B0FFA022C85D4912DB3361A /* VastchainPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VastchainPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		95556BC037A8B7EFE97F9036A6603782 /* Pods-VastchainPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VastchainPay_Example-umbrella.h"; sourceTree = "<group>"; };
-		9700B4588964664698A2EDFBC9EAA776 /* Pods-VastchainPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VastchainPay_Tests.modulemap"; sourceTree = "<group>"; };
-		9BCB59616F9D4D7143323C3E2EC12660 /* Pods-VastchainPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VastchainPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D7BF51EE8790A81577A12B9840350CC /* VastchainPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VastchainPay-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A34AF53D0703AD89B18E61CCAB582C29 /* VastchainPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VastchainPay-prefix.pch"; sourceTree = "<group>"; };
-		A70A0F8A9428B2B184F488D4FF68B61B /* Pods_VastchainPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VastchainPay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0BA15556C4EBDB4CB1A7A89D453535C /* Pods-VastchainPay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VastchainPay_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C5A9CF9FFB35FDBE96118137A62E58EF /* Pods-VastchainPay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VastchainPay_Tests-dummy.m"; sourceTree = "<group>"; };
-		C7F6F7B2762882502D393E8490358A32 /* VastchainPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VastchainPay.release.xcconfig; sourceTree = "<group>"; };
-		C8371B1C7BF347640B5E79EA1920CEFF /* PayWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PayWebViewController.h; path = VastchainPay/Classes/PayWebViewController.h; sourceTree = "<group>"; };
+		8EB62D706E52937DF3833C39EDBEED67 /* Pods-VastchainPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VastchainPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F0F712C5B0FFA022C85D4912DB3361A /* VastchainPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VastchainPay.framework; path = VastchainPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE5C5B36694C094F6E1EEF263B35A16 /* VastchainPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VastchainPay.release.xcconfig; sourceTree = "<group>"; };
+		9721C7814BD6925983B2264EC680AC98 /* Pods-VastchainPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VastchainPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1F2CCE7A6C5481C15F03E1ED63757B8 /* Pods-VastchainPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VastchainPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A70A0F8A9428B2B184F488D4FF68B61B /* Pods_VastchainPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VastchainPay_Tests.framework; path = "Pods-VastchainPay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86D7B9A5FE28FCE4982D289CBF01D6B /* Pods-VastchainPay_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VastchainPay_Example-Info.plist"; sourceTree = "<group>"; };
+		A88CE8A2C5838F7D6EE06F186EA4C0ED /* Pods-VastchainPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VastchainPay_Tests.modulemap"; sourceTree = "<group>"; };
+		BD5B78307E918FEF939C5BC90AA018AE /* VastchainPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VastchainPay-umbrella.h"; sourceTree = "<group>"; };
+		BE8FB530E7B123FD4487E3FD720864B4 /* VastchainPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VastchainPay-dummy.m"; sourceTree = "<group>"; };
+		D02ED3652AB95E39AE976E4FCFD681D9 /* IJsBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IJsBridge.h; path = VastchainPay/Classes/IJsBridge.h; sourceTree = "<group>"; };
+		D04B40F6EDE8771830553433FF3EA5FA /* Pods-VastchainPay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VastchainPay_Tests-dummy.m"; sourceTree = "<group>"; };
 		D0F7F37F70A41D23FD153C2FBCB4B3F3 /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
-		D1EDB6627A048CA9DCF8D5A8B8F0EB97 /* JsApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JsApi.h; path = VastchainPay/Classes/JsApi.h; sourceTree = "<group>"; };
-		D433A234F87D9CD26AA873F3E5EE9045 /* Pods-VastchainPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VastchainPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D5B7B26FD2A6B64DBDEDA19320C9BD01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DA13213962A1169A416F9C74163C22D1 /* Pods-VastchainPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VastchainPay_Tests-umbrella.h"; sourceTree = "<group>"; };
-		ECD60C3901AE2882BA52B7279E90519F /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = VastchainPay/Classes/WXApi.h; sourceTree = "<group>"; };
-		EF67CBAB026C846DD669EA460ABAE60A /* Pods-VastchainPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VastchainPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F6B647788F296DD6356C481646F77F60 /* Pods-VastchainPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VastchainPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FE2BCC44232BE1E7D5199F1E2D12C6B8 /* IJsBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IJsBridge.h; path = VastchainPay/Classes/IJsBridge.h; sourceTree = "<group>"; };
-		FEC0D441AB43570F75443989F32C364A /* Pods-VastchainPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VastchainPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3687086CC60FEE15EF09067B22439CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F495E36FEA8A4E5A5C1C07A880BE2187 /* VastchainPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VastchainPay.debug.xcconfig; sourceTree = "<group>"; };
+		F768711AA9654D5FF704ACC35DF59AC1 /* Pods-VastchainPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VastchainPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA375158F55CAA7E5A976930219B352E /* Pods-VastchainPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VastchainPay_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,33 +130,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F58B309151FB89E59DACE30C70ED3B88 /* Frameworks */ = {
+		F81D1ABCACE827081946736730F97BA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2026BF46775A44F2B0322481158E50E /* Foundation.framework in Frameworks */,
-				EC660B072824EAD900B3F3E9 /* libWeChatSDK.a in Frameworks */,
+				4A3B515ACC257F8F2164C6E3A7E0A329 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0677D68AFD867076FCC42A49A75D5904 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4FF290AFCBB533E4750BC71440C22964 /* VastchainPay.modulemap */,
-				9D7BF51EE8790A81577A12B9840350CC /* VastchainPay-dummy.m */,
-				0FDEF0F201B96547CC1C237EC1EF32AE /* VastchainPay-Info.plist */,
-				A34AF53D0703AD89B18E61CCAB582C29 /* VastchainPay-prefix.pch */,
-				6AABB4AD5EDC24EC2BA3DDEFC39AE602 /* VastchainPay-umbrella.h */,
-				32212509AC6468C2661957E72F58F98B /* VastchainPay.debug.xcconfig */,
-				C7F6F7B2762882502D393E8490358A32 /* VastchainPay.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/VastchainPay";
-			sourceTree = "<group>";
-		};
 		084A3D635A9013A4DD93C4A0FEB4F8FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,18 +151,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		086CD687B88E348D0F7E08BC97D881C2 /* Pods-VastchainPay_Example */ = {
+		2B94076A6C47C479093C46F15DAB558A /* Pods-VastchainPay_Example */ = {
 			isa = PBXGroup;
 			children = (
-				4AE9E3164CEB4639C827AB4E32BDA7C2 /* Pods-VastchainPay_Example.modulemap */,
-				9BCB59616F9D4D7143323C3E2EC12660 /* Pods-VastchainPay_Example-acknowledgements.markdown */,
-				EF67CBAB026C846DD669EA460ABAE60A /* Pods-VastchainPay_Example-acknowledgements.plist */,
-				6042D720597005C0F6DD22B4EBCF4A4A /* Pods-VastchainPay_Example-dummy.m */,
-				C0BA15556C4EBDB4CB1A7A89D453535C /* Pods-VastchainPay_Example-frameworks.sh */,
-				017543EC33D973542B2821FFB84BB662 /* Pods-VastchainPay_Example-Info.plist */,
-				95556BC037A8B7EFE97F9036A6603782 /* Pods-VastchainPay_Example-umbrella.h */,
-				D433A234F87D9CD26AA873F3E5EE9045 /* Pods-VastchainPay_Example.debug.xcconfig */,
-				6EE48281C26422570EF5A2BCB4D9A41B /* Pods-VastchainPay_Example.release.xcconfig */,
+				2A8F83676FB5480C35B799EBC432F83E /* Pods-VastchainPay_Example.modulemap */,
+				2FC83471862E69B50DD990B0C9372BB4 /* Pods-VastchainPay_Example-acknowledgements.markdown */,
+				F768711AA9654D5FF704ACC35DF59AC1 /* Pods-VastchainPay_Example-acknowledgements.plist */,
+				785921C8DA790D063D05A4A31BBA1B43 /* Pods-VastchainPay_Example-dummy.m */,
+				A86D7B9A5FE28FCE4982D289CBF01D6B /* Pods-VastchainPay_Example-Info.plist */,
+				17B4A420C6D01DA342A7F69E1E47F25A /* Pods-VastchainPay_Example-umbrella.h */,
+				9721C7814BD6925983B2264EC680AC98 /* Pods-VastchainPay_Example.debug.xcconfig */,
+				513221138E7BE080600AFF9FE8F47524 /* Pods-VastchainPay_Example.release.xcconfig */,
 			);
 			name = "Pods-VastchainPay_Example";
 			path = "Target Support Files/Pods-VastchainPay_Example";
@@ -197,6 +176,7 @@
 				8A0B8B0F8341A04CA487D2802F707FE8 /* Frameworks */,
 				63F7E62AC6F50D87E09A5929874B8F74 /* Support Files */,
 			);
+			name = WechatOpenSDK;
 			path = WechatOpenSDK;
 			sourceTree = "<group>";
 		};
@@ -226,43 +206,29 @@
 			path = "../Target Support Files/WechatOpenSDK";
 			sourceTree = "<group>";
 		};
-		6EE72A3BBA01CD1889E0BC9670A213E3 /* Pod */ = {
+		7B9182D1830A562CFDD357A230F08DD5 /* Pods-VastchainPay_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				09D986A66823E1DE2C75B661CAB10CE2 /* LICENSE */,
-				D5B7B26FD2A6B64DBDEDA19320C9BD01 /* README.md */,
-				1F74B9522255ADEDAA974E4515CC236A /* VastchainPay.podspec */,
+				A88CE8A2C5838F7D6EE06F186EA4C0ED /* Pods-VastchainPay_Tests.modulemap */,
+				3CB20EA53307D392D75CFF6350814E9D /* Pods-VastchainPay_Tests-acknowledgements.markdown */,
+				8EB62D706E52937DF3833C39EDBEED67 /* Pods-VastchainPay_Tests-acknowledgements.plist */,
+				D04B40F6EDE8771830553433FF3EA5FA /* Pods-VastchainPay_Tests-dummy.m */,
+				78A3FB0FD3B41EBC9C4B3D5CEDC10841 /* Pods-VastchainPay_Tests-Info.plist */,
+				FA375158F55CAA7E5A976930219B352E /* Pods-VastchainPay_Tests-umbrella.h */,
+				A1F2CCE7A6C5481C15F03E1ED63757B8 /* Pods-VastchainPay_Tests.debug.xcconfig */,
+				78DE680D044554FA2C01E8B722BFB4BC /* Pods-VastchainPay_Tests.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Pods-VastchainPay_Tests";
+			path = "Target Support Files/Pods-VastchainPay_Tests";
 			sourceTree = "<group>";
 		};
-		7E0D687D95CD0EDB94ADA52E5EDEA649 /* Targets Support Files */ = {
+		885CE977C61EB5D302A22EF427D36CDF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				086CD687B88E348D0F7E08BC97D881C2 /* Pods-VastchainPay_Example */,
-				BBCD835DCEEF34879D58C4C386D91C67 /* Pods-VastchainPay_Tests */,
+				2B94076A6C47C479093C46F15DAB558A /* Pods-VastchainPay_Example */,
+				7B9182D1830A562CFDD357A230F08DD5 /* Pods-VastchainPay_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		8393218723393AE9DB2D1383AE683383 /* VastchainPay */ = {
-			isa = PBXGroup;
-			children = (
-				FE2BCC44232BE1E7D5199F1E2D12C6B8 /* IJsBridge.h */,
-				76594D35F5CE531013F623D98F64B114 /* IJsBridge.m */,
-				D1EDB6627A048CA9DCF8D5A8B8F0EB97 /* JsApi.h */,
-				8264A08E7CD956CE99B80D096A9D8BC4 /* libWeChatSDK.a */,
-				C8371B1C7BF347640B5E79EA1920CEFF /* PayWebViewController.h */,
-				6C7113BF4230BC88953035A42740B0AB /* PayWebViewController.m */,
-				611EDD5EB14EF5DA3F50C61B6F6A2122 /* ReplaceMe.m */,
-				04A90572360BADC34CD13265098721CB /* WechatAuthSDK.h */,
-				ECD60C3901AE2882BA52B7279E90519F /* WXApi.h */,
-				7421AF280D2051B05DE43B8830C21F29 /* WXApiObject.h */,
-				6EE72A3BBA01CD1889E0BC9670A213E3 /* Pod */,
-				0677D68AFD867076FCC42A49A75D5904 /* Support Files */,
-			);
-			name = VastchainPay;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		8A0B8B0F8341A04CA487D2802F707FE8 /* Frameworks */ = {
@@ -273,39 +239,64 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		96CD7CB42E6D48CA52BEEEBC8B9017E4 /* Development Pods */ = {
+		909D4E358025FC1D233EDF28F65F0026 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8393218723393AE9DB2D1383AE683383 /* VastchainPay */,
+				A456AFF03F38345B43F1BBD3DED87B66 /* VastchainPay */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		BBCD835DCEEF34879D58C4C386D91C67 /* Pods-VastchainPay_Tests */ = {
+		A456AFF03F38345B43F1BBD3DED87B66 /* VastchainPay */ = {
 			isa = PBXGroup;
 			children = (
-				9700B4588964664698A2EDFBC9EAA776 /* Pods-VastchainPay_Tests.modulemap */,
-				3242718755E33E52164B3352BA2E53EF /* Pods-VastchainPay_Tests-acknowledgements.markdown */,
-				3227B989AD39AA4122E3CA594F462A77 /* Pods-VastchainPay_Tests-acknowledgements.plist */,
-				C5A9CF9FFB35FDBE96118137A62E58EF /* Pods-VastchainPay_Tests-dummy.m */,
-				4E7EE628DF88086BD920F612CF20F538 /* Pods-VastchainPay_Tests-Info.plist */,
-				DA13213962A1169A416F9C74163C22D1 /* Pods-VastchainPay_Tests-umbrella.h */,
-				FEC0D441AB43570F75443989F32C364A /* Pods-VastchainPay_Tests.debug.xcconfig */,
-				F6B647788F296DD6356C481646F77F60 /* Pods-VastchainPay_Tests.release.xcconfig */,
+				D02ED3652AB95E39AE976E4FCFD681D9 /* IJsBridge.h */,
+				4F1BE60A189312CF9EE03C74D7DC4E76 /* IJsBridge.m */,
+				65698F4AAD7FC17E4912EDE6E645BE73 /* JsApi.h */,
+				707D024AB4745526439C668D8A0AE805 /* PayWebViewController.h */,
+				24B2E5279BA06EB9ECD97F2C06013F66 /* PayWebViewController.m */,
+				66C468E31D1FAB4550D7141EFEF00154 /* ReplaceMe.m */,
+				A62E78F834C9F71529FE4FAA52B174AD /* Pod */,
+				C9608AA5DDDDCAF756FD1A03F23214D1 /* Support Files */,
 			);
-			name = "Pods-VastchainPay_Tests";
-			path = "Target Support Files/Pods-VastchainPay_Tests";
+			name = VastchainPay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A62E78F834C9F71529FE4FAA52B174AD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E3687086CC60FEE15EF09067B22439CB /* LICENSE */,
+				6C6A14DCA5BF4C8B862794239D02DC82 /* README.md */,
+				6AB2F6E6580BF16AB832D933E53EC290 /* VastchainPay.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C9608AA5DDDDCAF756FD1A03F23214D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61B083782329E1FD7EA0C7D314A0DF50 /* VastchainPay.modulemap */,
+				BE8FB530E7B123FD4487E3FD720864B4 /* VastchainPay-dummy.m */,
+				68F7038F3AB84990BB750312100EE061 /* VastchainPay-Info.plist */,
+				8540BF6E771677C2B952586840129AC8 /* VastchainPay-prefix.pch */,
+				BD5B78307E918FEF939C5BC90AA018AE /* VastchainPay-umbrella.h */,
+				F495E36FEA8A4E5A5C1C07A880BE2187 /* VastchainPay.debug.xcconfig */,
+				8FE5C5B36694C094F6E1EEF263B35A16 /* VastchainPay.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VastchainPay";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				96CD7CB42E6D48CA52BEEEBC8B9017E4 /* Development Pods */,
+				909D4E358025FC1D233EDF28F65F0026 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				52C06D29DE8A74D8B72B83758947D95F /* Pods */,
 				084A3D635A9013A4DD93C4A0FEB4F8FA /* Products */,
-				7E0D687D95CD0EDB94ADA52E5EDEA649 /* Targets Support Files */,
+				885CE977C61EB5D302A22EF427D36CDF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -320,20 +311,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		41B012235F43B55F9928F9A795D44988 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AD2E0B617C1A69C1B70035A8E38CD61F /* IJsBridge.h in Headers */,
-				A73D955F84AEF03EACF1D84853E28DC0 /* JsApi.h in Headers */,
-				C219C975014CC2B0B973833CD30D8658 /* PayWebViewController.h in Headers */,
-				B621C6A3CBA37E57618383C889895A2D /* VastchainPay-umbrella.h in Headers */,
-				5FB4F7DBBC461E8691F7C5FE54B6AEB3 /* WechatAuthSDK.h in Headers */,
-				E412F2B33A4D41ADCFC585E03CD0CD79 /* WXApi.h in Headers */,
-				1F354FE16EE07B0E96A88B182B09FA65 /* WXApiObject.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6F768C8839D82056ABAF58F9A202825A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,6 +324,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3B00123251E29343BEE5C696F8AEB1D /* Pods-VastchainPay_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2C7D61147C296A72D12FED651315A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105DC2DB4555C55908E2C07FD3A39BF7 /* IJsBridge.h in Headers */,
+				D37776C40745FF39A33AB5E42869EA04 /* JsApi.h in Headers */,
+				13D3169227AC0D9BD9C753F1B078EC00 /* PayWebViewController.h in Headers */,
+				DE74C291E570F86C0844D14169EFFC67 /* VastchainPay-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +353,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EDAA19FA0832CBA713356EED03A9EA06 /* PBXTargetDependency */,
+				F3D05EFCAEB88F9D68C025CB4A0F4036 /* PBXTargetDependency */,
 			);
 			name = "Pods-VastchainPay_Tests";
 			productName = "Pods-VastchainPay_Tests";
@@ -374,16 +362,17 @@
 		};
 		91D3C7A2BF0790351EC617F2D053624B /* VastchainPay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A36C3C5199763D33B222B6BA023C24A /* Build configuration list for PBXNativeTarget "VastchainPay" */;
+			buildConfigurationList = EF6971A8D86FD4D8F7DCA7562383CD72 /* Build configuration list for PBXNativeTarget "VastchainPay" */;
 			buildPhases = (
-				41B012235F43B55F9928F9A795D44988 /* Headers */,
-				61E8CC25F8B60EF8AE33146B1847EB2A /* Sources */,
-				F58B309151FB89E59DACE30C70ED3B88 /* Frameworks */,
-				5A511DE7B43851BC26C1E03BBD3FD76C /* Resources */,
+				DA2C7D61147C296A72D12FED651315A6 /* Headers */,
+				36BE79805B465C6E1A7681254B894A99 /* Sources */,
+				F81D1ABCACE827081946736730F97BA5 /* Frameworks */,
+				CFE5F965B3A4F9FA1FC21F347F009DF5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				ABCA57AAA97D95266FEF8B8745CE2D24 /* PBXTargetDependency */,
 			);
 			name = VastchainPay;
 			productName = VastchainPay;
@@ -402,8 +391,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				06A3094A5319975AC2EF392DE87728DB /* PBXTargetDependency */,
-				828D8647277CBCDE5EEAFB1CD7FD42C1 /* PBXTargetDependency */,
+				2B84DB99E2B8232EF812BCCFE19BA009 /* PBXTargetDependency */,
+				C366554D39E1B4F52176D71D8CD163BC /* PBXTargetDependency */,
 			);
 			name = "Pods-VastchainPay_Example";
 			productName = "Pods-VastchainPay_Example";
@@ -448,14 +437,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A511DE7B43851BC26C1E03BBD3FD76C /* Resources */ = {
+		A07CDA0EF524D3892B5A7AC7833DA2B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A07CDA0EF524D3892B5A7AC7833DA2B6 /* Resources */ = {
+		CFE5F965B3A4F9FA1FC21F347F009DF5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -465,15 +454,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		61E8CC25F8B60EF8AE33146B1847EB2A /* Sources */ = {
+		36BE79805B465C6E1A7681254B894A99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4D828526B9C4EE4C46AA1E05061E6E2 /* IJsBridge.m in Sources */,
-				7A92E9C829B5A1B006D7C07205BECB8C /* libWeChatSDK.a in Sources */,
-				8E845576D34ACAA34ED007CD255D4A83 /* PayWebViewController.m in Sources */,
-				B51F29F43901C95B7EEF8D52EFBF1881 /* ReplaceMe.m in Sources */,
-				325C79C4592D37F1F8EB5C7F5F93EEF7 /* VastchainPay-dummy.m in Sources */,
+				C173B95C6FB2A98E1553F39DA236AE90 /* IJsBridge.m in Sources */,
+				FBD3C03396FFFCB5199B04F2CBEEF7C6 /* PayWebViewController.m in Sources */,
+				8AF7E4E1F4DDC8F62041EDC8F0E6A5E4 /* ReplaceMe.m in Sources */,
+				01505F95361257149CD74A56CADE5DAB /* VastchainPay-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,38 +484,62 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		06A3094A5319975AC2EF392DE87728DB /* PBXTargetDependency */ = {
+		2B84DB99E2B8232EF812BCCFE19BA009 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VastchainPay;
 			target = 91D3C7A2BF0790351EC617F2D053624B /* VastchainPay */;
-			targetProxy = 47D97D67C1C63D704D8243954FA0C45F /* PBXContainerItemProxy */;
+			targetProxy = 636D348401DFBB3717896EFC46AEB52E /* PBXContainerItemProxy */;
 		};
-		828D8647277CBCDE5EEAFB1CD7FD42C1 /* PBXTargetDependency */ = {
+		ABCA57AAA97D95266FEF8B8745CE2D24 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WechatOpenSDK;
 			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
-			targetProxy = 7527B16ECE97DCCB23F17DE0F99ACB93 /* PBXContainerItemProxy */;
+			targetProxy = AA9BF8ACA7C1A86BB7B8CA8FEE702130 /* PBXContainerItemProxy */;
 		};
-		EDAA19FA0832CBA713356EED03A9EA06 /* PBXTargetDependency */ = {
+		C366554D39E1B4F52176D71D8CD163BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = E9DF6ADDCA6AC30D0AEB32EF3242E1D8 /* PBXContainerItemProxy */;
+		};
+		F3D05EFCAEB88F9D68C025CB4A0F4036 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-VastchainPay_Example";
 			target = FD3319C54B1DE2AC8F6485D4A3F88063 /* Pods-VastchainPay_Example */;
-			targetProxy = BD589A5FE3979358159C9D2C5BAF7D98 /* PBXContainerItemProxy */;
+			targetProxy = B9EA6822977B24BCB41B6D653567316B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		19EB48C8530FBA1DDEA8FFCDD602F307 /* Release */ = {
+		076469820712C7BB9646825F10347158 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DF14C1137882BFDBFE3D846088EC9CD /* WechatOpenSDK.release.xcconfig */;
+			baseConfigurationReference = 8FE5C5B36694C094F6E1EEF263B35A16 /* VastchainPay.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VastchainPay/VastchainPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VastchainPay/VastchainPay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/VastchainPay/VastchainPay.modulemap";
+				PRODUCT_MODULE_NAME = VastchainPay;
+				PRODUCT_NAME = VastchainPay;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -597,9 +609,54 @@
 			};
 			name = Debug;
 		};
+		65156F7F24F24A8BB785A19076C30F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F495E36FEA8A4E5A5C1C07A880BE2187 /* VastchainPay.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VastchainPay/VastchainPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VastchainPay/VastchainPay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/VastchainPay/VastchainPay.modulemap";
+				PRODUCT_MODULE_NAME = VastchainPay;
+				PRODUCT_NAME = VastchainPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D3A6EEAD5E50313EB001F5F932D2543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF14C1137882BFDBFE3D846088EC9CD /* WechatOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		9C5F4E95E6CD26780AC91B7548972D60 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EE48281C26422570EF5A2BCB4D9A41B /* Pods-VastchainPay_Example.release.xcconfig */;
+			baseConfigurationReference = 513221138E7BE080600AFF9FE8F47524 /* Pods-VastchainPay_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -630,44 +687,9 @@
 			};
 			name = Release;
 		};
-		9E15F3F0DCC2F6F7F75B2D3AA25E94BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7F6F7B2762882502D393E8490358A32 /* VastchainPay.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VastchainPay/VastchainPay-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VastchainPay/VastchainPay-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/WechatOpenSDK/OpenSDK1.8.7.1",
-				);
-				MODULEMAP_FILE = "Target Support Files/VastchainPay/VastchainPay.modulemap";
-				PRODUCT_MODULE_NAME = VastchainPay;
-				PRODUCT_NAME = VastchainPay;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		A9D073CA61813C32E2D51AB27E67BAB7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6B647788F296DD6356C481646F77F60 /* Pods-VastchainPay_Tests.release.xcconfig */;
+			baseConfigurationReference = 78DE680D044554FA2C01E8B722BFB4BC /* Pods-VastchainPay_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -697,6 +719,19 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		C2EF5004DBA26AFAA18331561BB455AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F7F37F70A41D23FD153C2FBCB4B3F3 /* WechatOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -753,62 +788,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		E5009365F054FAFCFABA52F8124E1FED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32212509AC6468C2661957E72F58F98B /* VastchainPay.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VastchainPay/VastchainPay-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VastchainPay/VastchainPay-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/WechatOpenSDK/OpenSDK1.8.7.1",
-				);
-				MODULEMAP_FILE = "Target Support Files/VastchainPay/VastchainPay.modulemap";
-				PRODUCT_MODULE_NAME = VastchainPay;
-				PRODUCT_NAME = VastchainPay;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E9034C3C8B274D7A7C62065B44D4B763 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0F7F37F70A41D23FD153C2FBCB4B3F3 /* WechatOpenSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		EA95DE11521C6E08B9DD79DD75519793 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D433A234F87D9CD26AA873F3E5EE9045 /* Pods-VastchainPay_Example.debug.xcconfig */;
+			baseConfigurationReference = 9721C7814BD6925983B2264EC680AC98 /* Pods-VastchainPay_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -840,7 +829,7 @@
 		};
 		FD7941901DEE6E65CF2EE125005BCB96 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEC0D441AB43570F75443989F32C364A /* Pods-VastchainPay_Tests.debug.xcconfig */;
+			baseConfigurationReference = A1F2CCE7A6C5481C15F03E1ED63757B8 /* Pods-VastchainPay_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -873,6 +862,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		202D84707115E6D3FCE465ACED44C2F1 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2EF5004DBA26AFAA18331561BB455AD /* Debug */,
+				8D3A6EEAD5E50313EB001F5F932D2543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -882,29 +880,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E9034C3C8B274D7A7C62065B44D4B763 /* Debug */,
-				19EB48C8530FBA1DDEA8FFCDD602F307 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7A36C3C5199763D33B222B6BA023C24A /* Build configuration list for PBXNativeTarget "VastchainPay" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E5009365F054FAFCFABA52F8124E1FED /* Debug */,
-				9E15F3F0DCC2F6F7F75B2D3AA25E94BA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		EF588771F88EAB018BD4E9B23ECAC183 /* Build configuration list for PBXNativeTarget "Pods-VastchainPay_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD7941901DEE6E65CF2EE125005BCB96 /* Debug */,
 				A9D073CA61813C32E2D51AB27E67BAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF6971A8D86FD4D8F7DCA7562383CD72 /* Build configuration list for PBXNativeTarget "VastchainPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65156F7F24F24A8BB785A19076C30F90 /* Debug */,
+				076469820712C7BB9646825F10347158 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -4,7 +4,7 @@ platform :ios, '9.0'
 
 target 'VastchainPay_Example' do
   pod 'VastchainPay', :path => '../'
-  pod 'WechatOpenSDK'
+#  pod 'WechatOpenSDK'
   
   target 'VastchainPay_Tests' do
     inherit! :search_paths
